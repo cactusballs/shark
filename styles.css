@@ -1,0 +1,74 @@
+html{
+  background-color: #EBE0C8;
+ }
+ body {
+   font-family: "Futura", sans-serif;
+   font-size: 22px;
+   text-align: center;
+ }
+ 
+ header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #297272;
+   background-size: cover;
+ }
+ 
+ .banner {
+  color: #ffffff;
+ }
+ 
+ .banner img{
+   height: 90px;
+   width: 120px;
+   margin-bottom: 0;
+ }
+ 
+ a {
+   text-decoration: none;
+   margin-left: 10px;
+   color: #E0672F;
+ }
+ 
+ a:hover{
+   color: #f4a127;
+ }
+ 
+ #delivery{
+    display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     margin-top: 2rem;
+     padding: 0 2rem;
+     gap: 1.75rem;
+ }
+ 
+ .product img {
+     width: 30rem;
+     height: 15rem;
+     border-radius: 2rem;
+ }
+ 
+ #team{
+    display: flex;
+     flex-wrap: wrap;
+     align-content: center;
+     justify-content: center;
+     margin-top: 2rem;
+     padding: 0 2rem;
+     gap: 1.75rem;
+ }
+ 
+ .mates img {
+     width: 30rem;
+     height: 15rem;
+     border-radius: 2rem;
+ }
+ 
+ footer p {
+   font-style: italic;
+   font-size: 12px;
+ }
+ 
